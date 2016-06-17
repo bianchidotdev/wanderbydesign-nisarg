@@ -42,11 +42,8 @@
     </div>
 
     <div class="container">
-
-      <div class="blog-header">
-        <h1 class="blog-title"> We're working on a custom theme! </h1>   
-        <p class="lead blog-description"> 
-        	We've started with a Bootstrap template. Check out this <a href="https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/"> tutorial.</a>
-        </p>
-        <img src="https://wildwoodpgo.files.wordpress.com/2015/01/fantastic-mr-fox-fitzwilliam-square.jpg" alt="Fantastic">     
+       <div class="blog-header">
+	       <h1 class="blog-title"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+	       <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
+           <img src="https://wildwoodpgo.files.wordpress.com/2015/01/fantastic-mr-fox-fitzwilliam-square.jpg" alt="Fantastic">     
       </div>
