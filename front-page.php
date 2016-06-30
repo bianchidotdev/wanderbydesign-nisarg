@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<!-- Custom styles for title page-->
+<link href="<?php bloginfo('template_directory');?>/front-page.css" rel="stylesheet">
+
+
 <!-- /.title stuff -->
 <div id="googlemap"></div>
 
