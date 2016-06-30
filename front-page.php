@@ -3,9 +3,11 @@
 <!-- /.title stuff -->
 <div id="googlemap"></div>
 
-<h1 class="front-page-header">Header 1</h1>
+<div class="container">
+    <h1 class="front-page-header">Header 1</h1>
 
-<p>Hey! This is a sample title page. Dope stuff yo.</p>
+    <p>Hey! This is a sample title page. Dope stuff yo.</p>
+</div>
 
 <div class="front-page-sidebar">
     <h3>Sidebar header</h3>
