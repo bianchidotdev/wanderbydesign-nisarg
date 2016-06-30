@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- /.title stuff -->
-<div id="googlemap"></div>
+<!-- <div id="googlemap"></div> -->
 
 <h1 class="front-page-header">Header 1</h1>
 
