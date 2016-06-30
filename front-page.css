@@ -4,7 +4,7 @@
  */
  .front-page-sidebar{
     box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-    background-color: transparent #36454f;
+    background-color: rgba(54,69,79,.4);
     color: #FFF;
     max-width: 300px;
     position: absolute;
