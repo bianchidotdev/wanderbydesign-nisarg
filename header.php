@@ -29,6 +29,7 @@
   </head>
   <body>
 
+<!-- PREVIOUS HEADER MARKUP
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
@@ -38,6 +39,21 @@
           <a class="blog-nav-item" href="#">Gallery</a>
         </nav>
       </div>
+    </div>
+ -->
+    
+    <div class="masthead">
+        <div class="logo">
+            <div>
+                <a href="/Home"> LOGO PLACEHOLDER (WANDER BY DESIGN)</a>
+            </div>
+        </div>
+        <div class="nav-flex">
+          <a class="active" href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Blog</a>
+          <a href="#">Gallery</a>
+        </div>
     </div>
 
     <div class="container">
