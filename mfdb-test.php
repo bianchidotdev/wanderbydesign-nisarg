@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: mfdb-test
+*/
+?>
 <?php get_header(); ?>
 
 <!-- Custom styles for title page-->
