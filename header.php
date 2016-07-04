@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="nav-flex">
-          <a class="active" href="#">Home</a>
+          <a class="active" href="<?php bloginfo('wpurl');?>/front-page.php">Home</a>
           <a href="#">About Us</a>
           <a href="#">Blog</a>
           <a href="#">Gallery</a>
