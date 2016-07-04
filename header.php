@@ -53,6 +53,7 @@
           <a href="#">About Us</a>
           <a href="#">Blog</a>
           <a href="#">Gallery</a>
+          <a href="<?php bloginfo('wpurl');?>/mfdb-test.php">mfdb</a>
         </div>
     </div>
 
