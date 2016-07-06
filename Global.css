@@ -167,9 +167,10 @@ a {
     background-color: #FF3D00;
 	color: #fff;
 } 
+
+/* HEADER */
  
- 
-.masthead {
+.header {
     position: fixed;
     width: 100%;
     padding: 2em 2em 0 2em;
@@ -183,7 +184,7 @@ a {
     justify-content: flex-start;
 }
 
-.masthead > div {
+.header > div {
     position: relative;
 }
 
@@ -245,7 +246,6 @@ a {
 /*    opacity: 1;*/
     background-color: #FF3D00;
 }
-
 
 
 /*
