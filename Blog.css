@@ -1,16 +1,3 @@
-
-
-
-/*
- * Masthead for nav
- */
-
-.blog-masthead {
-  background-color: #428bca;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-}
-
 /* Nav links */
 .blog-nav-item {
   position: relative;
@@ -121,23 +108,6 @@
 
 
 /*
- * Footer
- */
-
-.blog-footer {
-  padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
-}
-.blog-footer p:last-child {
-  margin-bottom: 0;
-}: 30px;
-}
-
-
-/*
  * Blog posts
  */
 
@@ -158,6 +128,7 @@
  * Footer
  */
 
+/*
 .blog-footer {
   padding: 40px 0;
   color: #999;
@@ -168,3 +139,4 @@
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+*/
