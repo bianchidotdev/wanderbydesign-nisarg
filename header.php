@@ -17,7 +17,7 @@
     
     <!-- <link href="style.css" rel="stylesheet"> -->
     
-    <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory');?>/Global.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
