@@ -1,4 +1,4 @@
-<link href="<?php bloginfo('template_directory');?>/blog.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory');?>/Blog.css" rel="stylesheet">
 
 <!-- Commenting out hard-coded blog posts
             <div class="blog-post">
