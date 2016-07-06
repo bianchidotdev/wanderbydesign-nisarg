@@ -1,3 +1,5 @@
+<link href="<?php bloginfo('template_directory');?>/blog.css" rel="stylesheet">
+
 <!-- Commenting out hard-coded blog posts
             <div class="blog-post">
             <h2 class="blog-post-title">Auto Deploy!</h2>
