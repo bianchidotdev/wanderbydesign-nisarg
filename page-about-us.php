@@ -10,6 +10,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			
+			<!-- from content.php -->
+			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="entry-content">
 					<?php
 						the_content( sprintf(
@@ -23,8 +26,9 @@ get_header(); ?>
 						) );
 					?>
 				</div><!-- .entry-content -->
+			</article><!-- #post-## -->
 
-    				<p> custom page TEST (page-about-us.php) </p>
+    			<p> custom page TEST (page-about-us.php) </p>
     
 		</main><!-- #main -->
 	</div><!-- #primary -->
