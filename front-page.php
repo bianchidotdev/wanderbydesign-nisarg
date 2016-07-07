@@ -11,3 +11,5 @@
 get_header(); ?>
 
 <p> FRONT PAGE TEST </p>
+
+<?php get_footer(); ?>
