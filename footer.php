@@ -1,18 +1,28 @@
-    </div><!-- /.container -->
+<?php
+/**
+ * The template for displaying the footer.
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package wander
+ */
 
-    <footer class="blog-footer">
-      <p>This is the personal travel blog of two wanderers.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
+?>
 
+	</div><!-- #content -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <?php wp_footer(); ?> 
-  </body>
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'wander' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'wander' ), 'WordPress' ); ?></a>
+			<span class="sep"> | </span>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'wander' ), 'wander', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
+</body>
 </html>

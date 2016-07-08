@@ -1,66 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+<?php
+/**
+ * The header for our theme.
+ *
+ * This is the template that displays all of the <head> section and everything up until <div id="content">
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package wander
+ */
 
-    <title>Wander By Design</title>
+?><!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-    <!-- Bootstrap core CSS -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> -->
+<?php wp_head(); ?>
+</head>
 
-    <!-- Custom styles for this template -->
-    
-    <!-- <link href="style.css" rel="stylesheet"> -->
-    
-    <link href="<?php bloginfo('template_directory');?>/Global.css" rel="stylesheet">
+<body <?php body_class(); ?>>
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'wander' ); ?></a>
 
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+			<?php
+			if ( is_front_page() && is_home() ) : ?>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<?php else : ?>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+			<?php
+			endif;
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <?php wp_head(); ?>
-  </head>
-  <body>
+			$description = get_bloginfo( 'description', 'display' );
+			if ( $description || is_customize_preview() ) : ?>
+				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+			<?php
+			endif; ?>
+		</div><!-- .site-branding -->
 
-<!-- PREVIOUS HEADER MARKUP
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="#">Home</a>
-          <a class="blog-nav-item" href="#">About Us</a>
-          <a class="blog-nav-item" href="#">Blog</a>
-          <a class="blog-nav-item" href="#">Gallery</a>
-        </nav>
-      </div>
-    </div>
- -->
-    
-    <div class="masthead">
-        <div class="logo">
-            <div>
-                <a href="/Home"> LOGO PLACEHOLDER (WANDER BY DESIGN)</a>
-            </div>
-        </div>
-        <div class="nav-flex">
-          <a class="active" href="<?php bloginfo('wpurl');?>/">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Blog</a>
-          <a href="#">Gallery</a>
-          <a href="<?php bloginfo('wpurl');?>/mfdb-test.php">mfdb</a>
-        </div>
-    </div>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'wander' ); ?></button>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
 
-    <div class="container">
-       <div class="blog-header">
-	       <h1 class="blog-title"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-	       <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
-           <img src="https://wildwoodpgo.files.wordpress.com/2015/01/fantastic-mr-fox-fitzwilliam-square.jpg" alt="Fantastic">     
-      </div>  
-      </div>
+	<div id="content" class="site-content">
