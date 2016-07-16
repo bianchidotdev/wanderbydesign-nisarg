@@ -27,6 +27,11 @@
 				'after'  => '</div>',
 			) );
 		?>
+		
+		<div class="about-us-flex">
+						
+		</div><!-- .about-us-flex -->
+		
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
