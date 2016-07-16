@@ -31,11 +31,12 @@ get_header(); ?>
 	
 							<?php endwhile; // End of the loop. ?>
 	
-							<div class="about-us-flex">
-						
-							</div><!-- .about-us-flex -->
-	
 						</main><!-- #main -->
+						
+						<div class="about-us-flex">
+						
+						</div><!-- .about-us-flex -->
+						
 					</div><!-- #primary -->
 					
 				</div><!-- #about-us -->
