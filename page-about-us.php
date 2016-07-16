@@ -33,6 +33,11 @@ get_header(); ?>
 	
 						</main><!-- #main -->
 					</div><!-- #primary -->
+					
+					<div class="about-us-flex">
+						
+					</div><!-- .about-us-flex -->
+					
 				</div><!-- #about-us -->
 			</div> <!--.row-->            
         </div><!--.container-->
