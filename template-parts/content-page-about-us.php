@@ -29,10 +29,14 @@
 		?>
 		
 		<div class="about-us-flex">
-			<div>Brady's pic</div>
-			<div>Michael's pic</div>
-			<p>Brady's blurb</p>
-			<p>Michael's blurb</p>
+			<div>
+				<div>Brady's pic</div>
+				<p>Brady's blurb</p>		
+			</div>
+			<div>
+				<div>Michael's pic</div>
+				<p>Michael's blurb</p>			
+			</div>
 		</div><!-- .about-us-flex -->
 		
 	</div><!-- .entry-content -->
