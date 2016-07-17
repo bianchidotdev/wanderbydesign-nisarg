@@ -1,7 +1,7 @@
 /*
 Custom style sheet for two column blog posts
 */
-.blog-post-column {
+.two-column-wrapper div {
   width:48%;
   display:inline-block;
   box-shadow:0 2px 15px rgba(0,0,0,0.30);
@@ -9,9 +9,9 @@ Custom style sheet for two column blog posts
   padding-right:16px;
   
 }
-.column-float-left {
+.column-1 {
   float:left;
 }
-.column-float-right {
+.column-2 {
   float:right;
 }
