@@ -1,3 +1,4 @@
+<?php /* Template Name: Two Columns */ ?>
 <?php
 /**
  * The template for displaying all pages.
