@@ -5,6 +5,8 @@
  */
 
 get_header(); ?>
+<link rel="stylesheet" type="text/css" href="two-column.css">
+
 
 		<div class="container">
             <div class="row">
