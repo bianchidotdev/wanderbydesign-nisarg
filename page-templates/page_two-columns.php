@@ -5,7 +5,6 @@
  */
 
 get_header(); ?>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/page-templates/two-columns.css">
 
 
 		<div class="container">
