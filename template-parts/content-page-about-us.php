@@ -29,13 +29,13 @@
 		?>
 		
 		<div class="about-us-flex-wrapper">
-			<div class="about-us-flex-column">
+			<div class="about-us-flex-column about-brady">
 				<div class="aspect-ratio-wrapper">
 					<div class="aspect-ratio"></div>
 				</div>
 				<p>Brady's blurb</p>		
 			</div>
-			<div class="about-us-flex-column">
+			<div class="about-us-flex-column about-michael">
 				<div class="aspect-ratio-wrapper">
 					<div class="aspect-ratio"></div>
 				</div>
