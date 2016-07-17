@@ -6,6 +6,7 @@ Custom style sheet for two column blog posts
   display:inline-block;
   box-shadow:0 2px 15px rgba(0,0,0,0.30);
   padding:10px;
+  padding-right:16px;
   
 }
 .column-float-left {
