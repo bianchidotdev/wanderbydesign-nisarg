@@ -28,13 +28,21 @@
 			) );
 		?>
 		
-		<div class="about-us-flex">
-			<div>
-				<div>Brady's pic</div>
+		<div class="about-us-flex-wrapper">
+			<div class="about-us-flex-column">
+				<div class="aspect-ratio-wrapper">
+					<div class="aspect-ratio">
+						<div>Brady's pic</div>
+					</div>
+				</div>
 				<p>Brady's blurb</p>		
 			</div>
-			<div>
-				<div>Michael's pic</div>
+			<div class="about-us-flex-column">
+				<div class="aspect-ratio-wrapper">
+					<div class="aspect-ratio">
+						<div>Michael's pic</div>
+					</div>
+				</div>
 				<p>Michael's blurb</p>			
 			</div>
 		</div><!-- .about-us-flex -->
