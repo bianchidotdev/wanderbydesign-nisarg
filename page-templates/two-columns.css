@@ -1,3 +1,16 @@
 /*
 Custom style sheet for two column blog posts
 */
+.blog-post-column {
+  width:48%;
+  display:inline-block;
+  box-shadow:0 2px 15px rgba(0,0,0,0.30);
+  padding:10px;
+  
+}
+.column-float-left {
+  float:left;
+}
+.column-float-right {
+  float:right;
+}
