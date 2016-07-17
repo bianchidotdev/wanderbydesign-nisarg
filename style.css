@@ -33,7 +33,9 @@ This theme is licensed under the GPL.
  * 6.0 Site Footer
  * 7.0 Media Queries
  * 8.0 Print
- *     
+ * 9.0 Custom Styling
+ *     9.1 Styling for two page template
+
 **/
 
 /**
@@ -1533,5 +1535,26 @@ color: #000000;
         color: #333;
     }
 }
-
-
+/**
+ * 9.0 Custom Styling
+  * -----------------------------------------------------------------------------
+ */
+ 
+/**
+ * 9.1 Styling for two column template
+  * -----------------------------------------------------------------------------
+ */
+.two-column-wrapper div {
+  width:48%;
+  display:inline-block;
+  box-shadow:0 2px 15px rgba(0,0,0,0.30);
+  padding:10px;
+  padding-right:16px;
+  
+}
+.column-1 {
+  float:left;
+}
+.column-2 {
+  float:right;
+}
