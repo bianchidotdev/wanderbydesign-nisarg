@@ -31,17 +31,13 @@
 		<div class="about-us-flex-wrapper">
 			<div class="about-us-flex-column">
 				<div class="aspect-ratio-wrapper">
-					<div class="aspect-ratio">
-						<div>Brady's pic</div>
-					</div>
+					<div class="aspect-ratio"></div>
 				</div>
 				<p>Brady's blurb</p>		
 			</div>
 			<div class="about-us-flex-column">
 				<div class="aspect-ratio-wrapper">
-					<div class="aspect-ratio">
-						<div>Michael's pic</div>
-					</div>
+					<div class="aspect-ratio"></div>
 				</div>
 				<p>Michael's blurb</p>			
 			</div>
