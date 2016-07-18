@@ -40,15 +40,16 @@
 					<div class="aspect-ratio"></div>
 				</div>
 				<p>
-					Hey! I'm Michael.
-					I recently quit my job as a technical services representative at a large healthcare software company in order to do away with the conventional 9-5 (really it was 7:30-5:30, but let's just say I'm glad to be out of it) and wander throughout South America for the next year or so.
+					Hey! I'm Michael. 
+					I recently left my career at a healthcare software company in order to do away with the conventional 9-5 (really it was 7:30-5:30, but let's just say I'm glad to be out of it) and wander throughout South America for the next year or so. 
 				</p>
 				<p>
-					The reason I'm travelling is to try a life where I am not strictly controlled by the tick of the clock and which I can design to be both constructive and inspiring.
+					I'm travelling to try out a life where my day-to-day is not strictly controlled by the tick of the clock or someone else's needs and demands.
+
 				</p>
 				<p>
-					My ideal would be to achieve a balance between comfort and chaos, where there is change enough to keep me on my toes as well as enough familiarity to not feel constantly anxious about the next stage in my life.
-				</p>			
+					I hope to find a balance between comfort and chaos, where there is change enough to keep me on my toes as well as enough familiarity to not feel constantly anxious about the next stage in my life.
+				</p>
 			</div>
 		</div><!-- .about-us-flex -->
 		
