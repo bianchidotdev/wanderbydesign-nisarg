@@ -8,7 +8,7 @@ get_header('gallery'); ?>
 
 
 		<div class="container">
-            <div class="row">
+            <div class="row custom-gallery">
 				<div id="primary" class="col-md-12 content-area ">
 					<main id="main" class="site-main" role="main">
 
