@@ -36,8 +36,9 @@
 					</h2>
 				</a>
 				<div class="aspect-ratio-wrapper">
-					<a href="http://www.wanderbydesign.co/bradylambert/"></a>
+					<a href="http://www.wanderbydesign.co/bradylambert/">
 					<div class="aspect-ratio"></div>
+					</a>
 				</div>
 				<p>Brady's blurb</p>		
 			</div>
@@ -48,8 +49,9 @@
 					</h2>
 				</a>
 				<div class="aspect-ratio-wrapper">
-					<a href="http://www.wanderbydesign.co/michaelbianchi/"></a>
+					<a href="http://www.wanderbydesign.co/michaelbianchi/">
 					<div class="aspect-ratio"></div>
+					</a>
 				</div>
 				<p>
 					Hey! I'm Michael. 
