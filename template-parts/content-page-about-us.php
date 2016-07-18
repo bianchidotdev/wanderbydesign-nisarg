@@ -50,6 +50,9 @@
 				<p>
 					I hope to find a balance between comfort and chaos, where there is change enough to keep me on my toes as well as enough familiarity to not feel constantly anxious about the next stage in my life.
 				</p>
+				<p>
+					Let's see how that goes!
+				</p>
 			</div>
 		</div><!-- .about-us-flex -->
 		
