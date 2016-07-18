@@ -12,6 +12,11 @@ get_header(); ?>
 					<main id="main" class="site-main" role="main">
 
 						<section class="error-404 not-found">
+							<div class="404-circle-photo-wrapper">
+								<a href="http://www.wanderbydesign.co/">
+									<div class="404-circle-photo"></div>
+								</a>
+							</div>
 							<header class="page-header">
 								<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'nisarg' ); ?></h1>
 							</header><!-- .page-header -->
