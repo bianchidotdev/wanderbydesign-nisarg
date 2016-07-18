@@ -4,7 +4,7 @@
  * @package Nisarg
  */
 
-get_header-gallery(); ?>
+get_header('gallery'); ?>
 
 
 		<div class="container">
