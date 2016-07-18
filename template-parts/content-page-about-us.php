@@ -30,11 +30,11 @@
 		
 		<div class="about-us-flex-wrapper">
 			<div class="about-us-flex-column about-brady">
-				<a href="http://www.wanderbydesign.co/bradylambert/">
-					<h2>
+				<h2>
+					<a href="http://www.wanderbydesign.co/bradylambert/">
 						Brady
-					</h2>
-				</a>
+					</a>
+				</h2>
 				<div class="aspect-ratio-wrapper">
 					<a href="http://www.wanderbydesign.co/bradylambert/">
 					<div class="aspect-ratio"></div>
@@ -43,11 +43,11 @@
 				<p>Brady's blurb</p>		
 			</div>
 			<div class="about-us-flex-column about-michael">
-				<a href="http://www.wanderbydesign.co/michaelbianchi/">
-					<h2>
+				<h2>
+					<a href="http://www.wanderbydesign.co/michaelbianchi/">
 						Michael
-					</h2>
-				</a>
+					</a>
+				</h2>
 				<div class="aspect-ratio-wrapper">
 					<a href="http://www.wanderbydesign.co/michaelbianchi/">
 					<div class="aspect-ratio"></div>
