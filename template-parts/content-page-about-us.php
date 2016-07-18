@@ -30,12 +30,18 @@
 		
 		<div class="about-us-flex-wrapper">
 			<div class="about-us-flex-column about-brady">
+				<h2>
+					Brady
+				</h2>
 				<div class="aspect-ratio-wrapper">
 					<div class="aspect-ratio"></div>
 				</div>
 				<p>Brady's blurb</p>		
 			</div>
 			<div class="about-us-flex-column about-michael">
+				<h2>
+					Michael
+				</h2>
 				<div class="aspect-ratio-wrapper">
 					<div class="aspect-ratio"></div>
 				</div>
