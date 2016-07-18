@@ -31,27 +31,24 @@
 		<div class="about-us-flex-wrapper">
 			<div class="about-us-flex-column about-brady">
 				<h2>
-					<a href="http://www.wanderbydesign.co/bradylambert/">
-						Brady
-					</a>
+					Brady
 				</h2>
 				<div class="aspect-ratio-wrapper">
-					<a href="http://www.wanderbydesign.co/bradylambert/">
 					<div class="aspect-ratio"></div>
-					</a>
 				</div>
-				<p>Brady's blurb</p>		
+				<p>
+					My name's Brady. After 
+				</p>		
+				<p>
+					I'm not a complete romantic. I understand that running away from problems doesn't work. No matter what country I'm in, there will be inescapable hardships, and constraints from without and within. Some things are always certain. So instead of trying to escape these certainties, I strive to seek out and embrace uncertainty.
+				</p>
 			</div>
 			<div class="about-us-flex-column about-michael">
 				<h2>
-					<a href="http://www.wanderbydesign.co/michaelbianchi/">
-						Michael
-					</a>
+					Michael
 				</h2>
 				<div class="aspect-ratio-wrapper">
-					<a href="http://www.wanderbydesign.co/michaelbianchi/">
 					<div class="aspect-ratio"></div>
-					</a>
 				</div>
 				<p>
 					Hey! I'm Michael. 
