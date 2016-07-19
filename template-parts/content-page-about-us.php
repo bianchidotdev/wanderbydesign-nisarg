@@ -55,12 +55,12 @@
 			</div>
 			<div class="about-us-flex-column about-michael">
 				<h2>
-					<a href"http://www.wanderbydesign.co/bradylambert/">
+					<a href="http://www.wanderbydesign.co/michaelbianchi/">
 						Michael
 					</a>
 				</h2>
 				<div class="aspect-ratio-wrapper">
-					<a href="http://www.wanderbydesign.co/bradylambert/">
+					<a href="http://www.wanderbydesign.co/michaelbianchi/">
 						<div class="aspect-ratio"></div>
 					</a>
 				</div>
