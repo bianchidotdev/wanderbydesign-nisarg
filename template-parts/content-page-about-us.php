@@ -37,10 +37,16 @@
 					<div class="aspect-ratio"></div>
 				</div>
 				<p>
-					My name's Brady. After 
+					My name’s Brady. After a whopping year at my first job out of college, I decided I needed to take a step back from the standard world of work and school to test out some different options. So I quit my job and decided to travel across South America!	
 				</p>		
 				<p>
-					I'm not a complete romantic. I understand that running away from problems doesn't work. No matter what country I'm in, there will be inescapable hardships, and constraints from without and within. Some things are always certain. So instead of trying to escape these certainties, I strive to seek out and embrace uncertainty.
+					Why, you may ask? For starters, I’m restless and I love to learn. Travelling full-time sounds like a great way to pursue my own changing interests.
+				</p>
+				<p>
+					However, I’m also terrified of uncertainty. My hope is that by purposefully placing myself in new situations I can make uncertainty more predictable in order to feel content amidst chaos.
+				</p>
+				<p>
+					Feel free to follow along as I work to build confidence in the unknown.
 				</p>
 			</div>
 			<div class="about-us-flex-column about-michael">
