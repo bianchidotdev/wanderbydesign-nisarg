@@ -39,7 +39,6 @@
 					<a href="http://www.wanderbydesign.co/bradylambert/">
  -						<div class="aspect-ratio"></div>
  -					</a>
-					<div class="aspect-ratio"></div>
 				</div>
 				<p>
 					My name’s Brady. After a whopping year at my first job out of college, I decided I needed to take a step back from the standard world of work and school to test out some different options. So I quit my job and decided to travel across South America!	
