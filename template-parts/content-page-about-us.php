@@ -50,7 +50,7 @@
 					However, I’m also terrified of uncertainty. My hope is that by purposefully placing myself in new situations I can make uncertainty more predictable in order to feel content amidst chaos.
 				</p>
 				<p>
-					Feel free to <a href="http://www.wanderbydesign.co/bradylambert/"> follow along </a> as I work to build confidence in the unknown.
+					TEST Feel free to <a href="http://www.wanderbydesign.co/bradylambert/"> follow along </a> as I work to build confidence in the unknown.
 				</p>
 			</div>
 			<div class="about-us-flex-column about-michael">
