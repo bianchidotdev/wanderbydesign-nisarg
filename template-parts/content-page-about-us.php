@@ -87,6 +87,7 @@
 					.ig-b-32 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-32@2x.png); background-size: 60px 178px; } }</style>
 					Follow me here:
 					<a href="https://www.instagram.com/michaeldbianchi/?ref=badge" class="ig-b- ig-b-32"><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a>
+					<a href="http://www.flickr.com/photos/143059008@N02/" class="ig-b-" title="See my photos on Flickr!"><img src="https://s.yimg.com/pw/images/goodies/white-large-chiclet.png" width="44" height="44" alt=""></a>
 			</div>
 		</div><!-- .about-us-flex -->
 		
