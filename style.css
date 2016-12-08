@@ -35,6 +35,7 @@ This theme is licensed under the GPL.
  * 8.0 Print
  * 9.0 Custom Styling
  *     9.1 Styling for two page template
+ *     9.2 Map
 
 **/
 
@@ -1561,4 +1562,11 @@ color: #000000;
 }
 .subscribe {
   width: 100%;
+}
+/**
+ * 9.2 Map
+  * -----------------------------------------------------------------------------
+ */
+#map {
+  height: 1550px;
 }
