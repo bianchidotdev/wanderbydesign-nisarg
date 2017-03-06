@@ -75,7 +75,6 @@ function fillCountryArrays(featureArray, countries) {
          countries.visited.push(countryName);
          if (countries.current.length == 0 && feature.getProperty('current') == 'yes') {
             countries.current.push(countryName);
-            document.getElementById('weAreHere').innerHTML = "We're in " + countryName + "!!!";
          }
       } else if (feature.getProperty('never') == 'yes') {
          countries.never.push(countryName);
