@@ -1,4 +1,4 @@
-var countriesFileExt = 'wp-content/themes/nisarg/data/countriesSouthAmerica.geo.json'
+var countriesFileExt = 'wp-content/themes/nisarg/data/countriesSouthAmerica.geo.json';
 var pathsFileExt = 'wp-content/themes/nisarg/data/myMapsURLs.txt';
 var extArray = ["category", "gallery"];
 var map;
