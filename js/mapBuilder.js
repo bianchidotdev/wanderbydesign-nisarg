@@ -1,3 +1,6 @@
+//Add these scripts to the end of WP Home Page File, in the order listed below:
+//<script type="text/javascript" src="wp-content/themes/nisarg/js/mapBuilder.js"></script>
+//<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap" async="" defer="defer"></script>
 var countriesFileExt = 'wp-content/themes/nisarg/data/countriesSouthAmerica.geo.json';
 var pathsFileExt = 'wp-content/themes/nisarg/data/myMapsURLs.txt';
 var extArray = ["category", "gallery"];
