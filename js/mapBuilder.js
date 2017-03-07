@@ -2,6 +2,7 @@
 //<div id="map"></div>
 //<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 //<script type="text/javascript" src="wp-content/themes/nisarg/js/jquery.ajax-cross-origin.min.js"></script>
+//<script src="wp-content/themes/nisarg/js/togeojson/togeojson.js"></script>
 //<script type="text/javascript" src="wp-content/themes/nisarg/js/mapBuilder.js"></script>
 //<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap" async="" defer="defer"></script>
 var countriesFileExt = 'wp-content/themes/nisarg/data/countriesSouthAmerica.geo.json';
