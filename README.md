@@ -5,7 +5,7 @@ This repository contains the code used for the shared travel blog, http://www.wa
 Custom pages (built on top of the Nisarg Theme) include the [Home](http://www.wanderbydesign.co/) and [About Us](http://www.wanderbydesign.co/about-us/) pages. However, these styles are contained in the admin section of our WordPress account, and cannot be viewed here.
 
 # Map
-## Built by [Brady Lambert](https://github.com/lambertbrady)
+### Built by [Brady Lambert](https://github.com/lambertbrady)
 The code for the home page map, written using the [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/reference), can be viewed at [/js/mapBuilder.js](../master/js/mapBuilder.js). The Google Map uses the following two data layers:
 
 
