@@ -5,8 +5,8 @@ This repository contains the code used for the shared travel blog, http://www.wa
 Custom pages (built on top of the Nisarg Theme) include the [Home](http://www.wanderbydesign.co/) and [About Us](http://www.wanderbydesign.co/about-us/) pages. However, these styles are contained in the admin section of our WordPress account, and cannot be viewed here.
 
 # Map
-
-The code for the home page map, written in Javascript by [Brady Lambert](https://github.com/lambertbrady), can be viewed at [/js/mapBuilder.js](../master/js/mapBuilder.js). The Google Map uses the following two data layers:
+## Built by [Brady Lambert](https://github.com/lambertbrady)
+The code for the home page map, written using the [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/reference), can be viewed at [/js/mapBuilder.js](../master/js/mapBuilder.js). The Google Map uses the following two data layers:
 
 
 ### 1. **dataLayerPaths**
@@ -27,7 +27,7 @@ Styles and Event Listeners are added to the borders of each country based on pro
 It should be noted that one Event Listener - the *clickCountry* click event - has particularly unique functionality. When a country is clicked, a function is called to test whether certain URLs are valid. The URLs checked are based on the name of the clicked feature, along with the value of an array called *extArray* initialized at the beginning of *mapBuilder.js*. The order of elements in the array are important, for they correspond to the order in which each URL is tested.
 
 For example, if *extArray* is set equal to *["test111", "test222"]*, and the country clicked is *Chile* (e.g., the feature clicked has a "*name*" property equal to *"Chile"*), then the following steps will occur:
-   1. An internal AJAX request will be made to HEAD of href*/test111/chile*. If a 200 response is received, the user will be redirected to this first location.
+   1. An internal AJAX request (JavaScript only) will be made to HEAD of href*/test111/chile*. If a 200 response is received, the user will be redirected to this first location.
    2. If a 200 response is not received, another internal AJAX request will be made to HEAD of href*/test222/chile*. If a 200 response is received, the user will be redirected to this second location.
    3. If a 200 response is not received, no more steps take place, since only two elements were included in *extArray*. The user will stay on the home page.
 
