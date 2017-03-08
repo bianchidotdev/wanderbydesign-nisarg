@@ -24,7 +24,7 @@ This layer contains [GeoJSON country border data](../master/data/countriesSouthA
 
 Styles and Event Listeners are added to the borders of each country based on properties defined in the edited GeoJSON file.
 
-It should be noted that one Event Listener - the *clickCountry* click event - has particularly unique functionality. When a country is clicked, a function is called to test whether certain URLs are valid. The URLs checked are based on the name of the clicked feature, along with the value of an array called *extArray* initialized at the beginning of *mapBuilder.js*. The order of elements in the array are important, for they correspond to the order in which each URL is tested.
+It should be noted that one Event Listener - the *clickCountry* click event - has particularly unique functionality. When a country is clicked, a function is called to test whether certain URLs are valid. The URLs checked are based on the name of the clicked feature, along with the value of an array called *extArray* initialized at the beginning of *mapBuilder.js*. The order of elements in the array is important, for it directly corresponds to the order in which each URL is tested.
 
 For example, if *extArray* is set equal to *["test111", "test222"]*, and the country clicked is *Chile* (e.g., the feature clicked has a "*name*" property equal to *"Chile"*), then the following steps will occur:
    1. An internal AJAX request (JavaScript only) will be made to HEAD of href*/test111/chile*. If a 200 response is received, the user will be redirected to this first location.
