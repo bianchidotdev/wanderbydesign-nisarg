@@ -6,7 +6,7 @@ Custom pages (built on top of the Nisarg Theme) include the [Home](http://www.wa
 
 # Map
 
-The **code for the home page map,** written in Javascript by [Brady Lambert](https://github.com/lambertbrady), can be **[viewed at /js/mapBuilder.js](/js/mapBuilder.js)**. The Google Map uses the following two data layers:
+The code for the home page map, written in Javascript by [Brady Lambert](https://github.com/lambertbrady), can be viewed at [/js/mapBuilder.js](/js/mapBuilder.js). The Google Map uses the following two data layers:
 
 
 ### 1. **dataLayerPaths**
