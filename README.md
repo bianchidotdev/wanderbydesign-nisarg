@@ -22,7 +22,7 @@ Each feature then has Styles and Event Listeners added based on its geometry ("L
 
 This layer contains [GeoJSON country border data](../master/data/countriesSouthAmerica.geo.json) for all the mainland countries of South America (Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, French Guiana, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela). The raw data was taken from https://github.com/mledoze/countries (Open Database License), and edited to fit the needs of this project.
 
-Styles and Event Listeners are added to the borders of each country based on properties defined in the edited geojson file.
+Styles and Event Listeners are added to the borders of each country based on properties defined in the edited GeoJSON file.
 
 It should be noted that one Event Listener - the *clickCountry* click event - has particularly unique functionality. When a country is clicked, a function is called to test whether certain URLs are valid. The URLs checked are based on the name of the clicked feature, along with the value of an array called *extArray* initialized at the beginning of *mapBuilder.js*. The order of elements in the array are important, for they correspond to the order in which each URL is tested.
 
