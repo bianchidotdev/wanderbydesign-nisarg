@@ -13,8 +13,6 @@ The code for the home page map, written using the [Google Maps JavaScript API](h
 
 This layer contains KML data defined in [Google My Maps](https://drive.google.com/open?id=13Nxq5wGeXsgzBEztcfwETwhDixM&usp=sharing). The My Maps data is separated into KML layers that include paths and markers describing our travels. Each layer has a corresponding network link, all of which are listed [in a text file](../master/data/myMapsURLs.txt). A function in *mapBuilder.js* accesses this file over AJAX (JavaScript only) and creates an array of each URL. A second AJAX call is then made, this time using the [AJAX Cross Origin JQuery Plugin](http://www.ajax-cross-origin.com/), to retrieve the KML data from each network link. The plugin is necessary to bypass the Same-origin Policy, so data can be added dynamically from Google My Maps. Once the KML data is retrieved, it is converted to GeoJSON using [togeojson.js](https://mapbox.github.io/togeojson/) ([License](../master/js/togeojson/LICENSE)), and finally added to the Google Map data layer.
 
-NOTE: Server settings were updated to allow the Cross Origin plugin to work. The following User-Defined MIME Type was added: *MIME Type = "application/javascript"* and *Extension = "jsonp"*.
-
 Each feature then has Styles and Event Listeners added based on its geometry ("LineString" or "Point") and properties ("minor" or "major" descriptions for points).
 
 
